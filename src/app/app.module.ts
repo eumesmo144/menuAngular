@@ -11,13 +11,13 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import { CommonModule } from '@angular/common';
-import { MenuComponent } from './layout/menu/menu.component';
+import { LayoutModule } from './layout/layout.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+
   ],
   imports: [
     BrowserModule,
@@ -31,6 +31,8 @@ import { MenuComponent } from './layout/menu/menu.component';
     MatCardModule,
     MatMenuModule,
     CommonModule,
+    LayoutModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
